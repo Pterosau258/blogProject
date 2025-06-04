@@ -1,0 +1,25 @@
+.nav-item{
+  /* 设置背景色 */
+  background-color: red;
+  /* 设置距离上方10px */
+  margin-top: 10px;
+  /* 设置高度为35px */
+  height: 35px;
+  /* 设置宽度为100px */
+  width: 100px;
+
+}
+
+.nav-item a img{
+  /* 设置高度为父元素的100% */
+  height: 100%;
+}
+
+.nav-item a{
+  /* 将下划线去除 */
+  text-decoration: none;
+  /* 设置文字颜色为黑色 */
+  color: black;
+  /* 设置文字居中 */
+  text-align: center;
+}
