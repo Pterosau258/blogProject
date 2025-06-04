@@ -1,4 +1,11 @@
-.nav-item{
+ul {
+  /* 完全移除列表符号 */
+  list-style: none;
+  /* 移除列表项的左边距 */
+  padding-left: 0;
+}
+
+.nav-item {
   /* 设置背景色 */
   background-color: red;
   /* 设置距离上方10px */
@@ -10,12 +17,12 @@
 
 }
 
-.nav-item a img{
+.nav-item a img {
   /* 设置高度为父元素的100% */
   height: 100%;
 }
 
-.nav-item a{
+.nav-item a {
   /* 将下划线去除 */
   text-decoration: none;
   /* 设置文字颜色为黑色 */
