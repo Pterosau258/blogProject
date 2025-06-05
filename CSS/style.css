@@ -20,3 +20,37 @@
   /* 设置文字居中 */
   text-align: center;
 }
+
+.home {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.home-item {
+  /* 设置宽度和高度 */
+  width: 100%;
+  /* height: 300px; */
+  /* 设置背景颜色 */
+  background-color: #507883;
+}
+
+.home-about {
+  width: 200px;
+  /* background-color: #4d1919; */
+}
+
+.home-about img {
+  width: 200px;
+  height: 200px;
+}
+
+.home-about p {
+  text-align: center;
+  color: white;
+}
+
+.about-contact img {
+  width: 25px;
+  height: 25px;
+
+}
