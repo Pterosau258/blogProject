@@ -1,5 +1,5 @@
 body {
-  background-image: url(../Resources/images/background-image.jpg);
+  background-color: #17507d;
 }
 
 ul {
@@ -12,5 +12,4 @@ ul {
 a {
   /* 将下划线去除 */
   text-decoration: none;
-  
 }
