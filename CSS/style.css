@@ -1,12 +1,17 @@
+.nav{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .nav-item {
   /* 设置背景色 */
-  background-color: red;
   /* 设置距离上方10px */
   margin-top: 10px;
   /* 设置高度为35px */
-  height: 35px;
+  height: 30px;
   /* 设置宽度为115px */
-  width: 115px;
+  width: 70px;
 }
 
 .nav-item a img {
@@ -21,27 +26,41 @@
   text-align: center;
 }
 
+.nav-item a{
+  display: flex;
+  /* 将主轴方向设为平行 */
+  flex-direction: column;
+  height: 100%;
+}
+
+.content{
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
 .home {
-  padding-left: 15%;
-  padding-right: 15%;
+  margin-top: 10px;
+  background-image: url(../Resources/images/background-image.jpg);
+  padding: 10px;
 }
 
 .home-item {
+  display: flex;
   /* 设置宽度和高度 */
   width: 100%;
-  /* height: 300px; */
-  /* 设置背景颜色 */
-  background-color: #507883;
+  margin-bottom: 30px;
+
 }
 
 .home-about {
   width: 200px;
-  /* background-color: #4d1919; */
+  border: 1px solid white;
 }
 
 .home-about img {
   width: 200px;
   height: 200px;
+  border-radius: 50%;
 }
 
 .home-about p {
@@ -53,6 +72,11 @@
   width: 25px;
   height: 25px;
 
+}
+
+.home-about ul{
+  display: flex;
+  justify-content: space-around;
 }
 
 .interest {
