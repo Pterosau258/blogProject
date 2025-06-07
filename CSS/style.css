@@ -1,7 +1,15 @@
-.nav{
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+  font-family: "得意黑 斜体";font-weight: 400;src: url("//at.alicdn.com/wf/webfont/vpDdf5Wyxz2A/mxJgBz1Vn7qA.woff2") format("woff2"),
+  url("//at.alicdn.com/wf/webfont/vpDdf5Wyxz2A/SbtqU0EbY2Qb.woff") format("woff");
+  font-display: swap;
+}
+
+.nav {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-bottom: 100px;
 }
 
 .nav-item {
@@ -26,14 +34,14 @@
   text-align: center;
 }
 
-.nav-item a{
+.nav-item a {
   display: flex;
   /* 将主轴方向设为平行 */
   flex-direction: column;
   height: 100%;
 }
 
-.content{
+.content {
   padding-left: 12%;
   padding-right: 12%;
 }
@@ -41,20 +49,24 @@
 .home {
   margin-top: 10px;
   background-image: url(../Resources/images/background-image.jpg);
-  padding: 10px;
+  padding: 50px;
+  border-radius: 25px;
 }
 
 .home-item {
   display: flex;
   /* 设置宽度和高度 */
   width: 100%;
-  margin-bottom: 30px;
+  border-radius: 20px;
+  backdrop-filter:blur(50px)
 
 }
 
 .home-about {
   width: 200px;
-  border: 1px solid white;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 20px 0px 0px 20px ;
 }
 
 .home-about img {
@@ -65,27 +77,40 @@
 
 .home-about p {
   text-align: center;
-  color: white;
+  font-weight: 600;
 }
+
 
 .about-contact img {
   width: 25px;
   height: 25px;
-
 }
 
-.home-about ul{
+.home-about ul {
   display: flex;
   justify-content: space-around;
 }
 
+.home-about-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+  width: 100%;
+}
+
+.home-about-text h1 span {
+  font-family: "得意黑 斜体", sans-serif; /* 使用自定义字体 */
+  font-weight: 400; /* 保持与 @font-face 中一致 */
+  font-size: 40px;  
+}
+
+
 .interest {
-  padding-left: 15%;
-  padding-right: 15%;
   padding-top: 5%;
 }
 
 .int-item {
   width: 100%;
-  background-color: #507883; 
+  background-color: #507883;
 }
