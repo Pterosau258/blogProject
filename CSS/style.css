@@ -1,7 +1,9 @@
 /* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
 @font-face {
-  font-family: "得意黑 斜体";font-weight: 400;src: url("//at.alicdn.com/wf/webfont/vpDdf5Wyxz2A/mxJgBz1Vn7qA.woff2") format("woff2"),
-  url("//at.alicdn.com/wf/webfont/vpDdf5Wyxz2A/SbtqU0EbY2Qb.woff") format("woff");
+  font-family: "得意黑 斜体";
+  font-weight: 400;
+  src: url("//at.alicdn.com/wf/webfont/vpDdf5Wyxz2A/mxJgBz1Vn7qA.woff2") format("woff2"),
+    url("//at.alicdn.com/wf/webfont/vpDdf5Wyxz2A/SbtqU0EbY2Qb.woff") format("woff");
   font-display: swap;
 }
 
@@ -47,8 +49,6 @@
 }
 
 .home {
-  margin-top: 175px;
-  margin-bottom: 175px;
   background-image: url(../Resources/images/background-image.jpg);
   padding: 50px;
   border-radius: 25px;
@@ -59,15 +59,14 @@
   /* 设置宽度和高度 */
   width: 100%;
   border-radius: 20px;
-  backdrop-filter:blur(50px)
-
+  backdrop-filter: blur(50px)
 }
 
 .home-about {
   width: 200px;
   background-color: #ffffff;
   padding: 10px;
-  border-radius: 20px 0px 0px 20px ;
+  border-radius: 20px 0px 0px 20px;
 }
 
 .home-about img {
@@ -92,7 +91,7 @@
   justify-content: space-around;
 }
 
-.home-about-text{
+.home-about-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,26 +100,71 @@
 }
 
 .home-about-text h1 span {
-  font-family: "得意黑 斜体", sans-serif; /* 使用自定义字体 */
-  font-weight: 400; /* 保持与 @font-face 中一致 */
-  font-size: 40px;  
+  font-family: "得意黑 斜体", sans-serif;
+  /* 使用自定义字体 */
+  font-weight: 400;
+  /* 保持与 @font-face 中一致 */
+  font-size: 40px;
 }
 
 
 .interest {
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  background-color: #507883;
 }
 
 .int-item {
   width: 100%;
+
+}
+
+.int-music {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 20px;
+  padding: 5%;
+}
+
+.int-m-item { 
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.music-item {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
   
 }
 
-.int-music{
+.cover {
+  position: absolute;
+  left: 30px;
+  top: 170px;
+  width: 80%;
+  transform: rotate(0.95turn);
+
+}
+
+.cover img {
   width: 100%;
+  border-radius: 20px;
+  box-shadow:0 0 1px hsl(0deg 0%0%/.075),0 0 2px hsl(0deg 0%0%/.075),0 0 4px hsl(0deg 0%0%/.075),0 0 8px hsl(0deg 0%0%/.075),0 0 16px hsl(0deg 0%0%/.075)
+
+}
+
+.mu-box {
+  position: relative;
+  width: 300px;
   height: 300px;
-  background-color: #ffffff;
+  background-color: skyblue;
+  border-radius: 20px;
+  top: 200px;
+  left: 40px;
+  transform: rotate(0.45turn);
 }
