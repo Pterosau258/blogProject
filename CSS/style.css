@@ -127,11 +127,16 @@
   padding: 5%;
 }
 
-.int-m-item { 
+.int-m-item1,
+.int-m-item2 {
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.int-m-item2 {
+  margin-top: -160px;
 }
 
 .music-item {
@@ -139,7 +144,8 @@
   width: 200px;
   height: 300px;
   overflow: hidden;
-  
+  margin: 0 5px;
+
 }
 
 .cover {
@@ -154,8 +160,7 @@
 .cover img {
   width: 100%;
   border-radius: 20px;
-  box-shadow:0 0 1px hsl(0deg 0%0%/.075),0 0 2px hsl(0deg 0%0%/.075),0 0 4px hsl(0deg 0%0%/.075),0 0 8px hsl(0deg 0%0%/.075),0 0 16px hsl(0deg 0%0%/.075)
-
+  box-shadow: 0 0 1px hsl(0deg 0%0%/.075), 0 0 2px hsl(0deg 0%0%/.075), 0 0 4px hsl(0deg 0%0%/.075), 0 0 8px hsl(0deg 0%0%/.075), 0 0 16px hsl(0deg 0%0%/.075)
 }
 
 .mu-box {
@@ -167,4 +172,28 @@
   top: 200px;
   left: 40px;
   transform: rotate(0.45turn);
+}
+
+.int-m-item1 :nth-child(1) .mu-box {
+  background-color: skyblue;
+}
+
+.int-m-item1 :nth-child(2) .mu-box {
+  background-color: #4a5c5b;
+}
+
+.int-m-item1 :nth-child(3) .mu-box {
+  background-color: #171413
+}
+
+.int-m-item2 :nth-child(1) .mu-box {
+  background-color: #3d2b0c;
+}
+
+.int-m-item2 :nth-child(2) .mu-box {
+  background-color: #a28687;
+}
+
+.int-m-item2 :nth-child(3) .mu-box {
+  background-color: #c2bdc6;
 }
