@@ -44,8 +44,8 @@
 }
 
 .content {
-  padding-left: 12%;
-  padding-right: 12%;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .home {
@@ -115,90 +115,106 @@
 
 .int-item {
   width: 100%;
-
 }
 
-.int-music h2 {
-  width: 100%;
-  text-align: left;
+.int-item h2 {
+  width: 750px;
+  margin: 0 auto;
+  margin-top: 50px
 }
 
-.int-music {
+.int-box {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  border-radius: 20px;
-  padding: 5%;
-}
-
-.int-m-item1,
-.int-m-item2 {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
   justify-content: center;
-}
-
-.int-m-item2 {
-  margin-top: -160px;
-}
-
-.music-item {
-  position: relative;
-  width: 200px;
-  height: 300px;
-  overflow: hidden;
-  margin: 0 5px;
-
-}
-
-.cover {
-  position: absolute;
-  left: 35px;
-  top: 170px;
-  width: 80%;
-  transform: rotate(0.95turn);
-
-}
-
-.cover img {
+  align-items: center;
   width: 100%;
-  border-radius: 8px;
-  box-shadow: 0 0 1px hsl(0deg 0%0%/.075), 0 0 2px hsl(0deg 0%0%/.075), 0 0 4px hsl(0deg 0%0%/.075), 0 0 8px hsl(0deg 0%0%/.075), 0 0 16px hsl(0deg 0%0%/.075)
 }
 
-.mu-box {
-  position: relative;
-  width: 300px;
+.int-box-item {
+  width: 250px;
   height: 300px;
-  background-color: skyblue;
-  border-radius: 20px;
-  top: 200px;
-  left: 40px;
-  transform: rotate(0.45turn);
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
 }
 
-.int-m-item1 :nth-child(1) .mu-box {
-  background-color: skyblue;
+.int-box-item .int-content {
+  width: 300px;
+  height: 100px;
+  border-radius: 15px;
+  margin-top: 90%;
+  transform: translate(5px, 5px) rotate(345deg);
 }
 
-.int-m-item1 :nth-child(2) .mu-box {
-  background-color: #4a5c5b;
+.int-box-item .content-img {
+  position: absolute;
+  top: 32%;
+  left: 45%;
+  transform: translate(-50%, 0) rotate(345deg);
+  width: 190px;
+  overflow: auto;
 }
 
-.int-m-item1 :nth-child(3) .mu-box {
-  background-color: #171413
+.int-box-item .content-img img {
+  width: 100%;
+  border-radius: 10px;
 }
 
-.int-m-item2 :nth-child(1) .mu-box {
-  background-color: #3d2b0c;
+
+.mu-margin-top {
+  margin-top: -140px;
 }
 
-.int-m-item2 :nth-child(2) .mu-box {
-  background-color: #a28687;
+.book-margin-top {
+  margin-top: -90px;
 }
 
-.int-m-item2 :nth-child(3) .mu-box {
-  background-color: #c2bdc6;
+.content-img img {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.int-mov {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.mov-img {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background-color: red;
+}
+
+.mov-img-box1 {
+  width: 30%;
+  height: 90%;
+  background-color: wheat;
+}
+
+.mov-img-box2 {
+  width: 65%;
+  height: 90%;
+  background-color: black;
+}
+
+.mov-text img {
+  width: 11.2px;
+  height: 8.4px;
+}
+
+.mov-text {
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border-left: 2px solid red;
+}
+
+.mov-text p {
+  margin: 0;
+  padding: 0;
+  font: inherit; 
 }

@@ -1,6 +1,7 @@
 body {
   background-color: #51c4d317;
 }
+
 ul {
   /* 完全移除列表符号 */
   list-style: none;
@@ -15,5 +16,18 @@ a {
 
 /* 设置每个内容之间的距离 */
 .item-margin {
-    margin-top: 230px;
+  margin-top: 230px;
+}
+
+/* 根据interest部分中不同的图片调整位置 */
+.cover-padding-mu {
+  padding-top: 50px;
+}
+
+.cover-padding-book {
+  padding-left: 30px;
+}
+
+.cover-padding-game {
+  padding-left: 35px;
 }
