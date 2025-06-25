@@ -152,7 +152,7 @@
   left: 45%;
   transform: translate(-50%, 0) rotate(345deg);
   width: 190px;
-  
+
 }
 
 .int-box-item .content-img img:hover {
@@ -181,14 +181,14 @@
   left: 45%;
   transform: translate(-50%, 0) rotate(345deg);
   width: 190px;
-  
+
 }
 
-.int-box-item-mu .content-img img{
+.int-box-item-mu .content-img img {
   transition: all 0.2s ease-in;
 }
 
-.int-box-item-mu .content-img img:hover{
+.int-box-item-mu .content-img img:hover {
   transform: translate(25px, -35px) rotate(15deg);
 }
 
