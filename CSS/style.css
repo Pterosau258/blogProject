@@ -314,15 +314,54 @@
 .like-box-item:hover p{
   opacity: 1;
 }
-
+/* 
 .photo-item{
   display: flex;
   flex-direction: row;
 }
 
-
-
 .photo-item img{
   width: 100%;
   height: 100%;
+} */
+
+.skill-item { 
+  display: flex;
+  justify-content:space-evenly;
+  margin: 50px 0px;
+}
+
+.skill-item div{
+  width: 100px;
+  height: 100px;
+}
+
+.skill-item img { 
+  width: 100%;
+  height: 100%;
+}
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  color: #a8a8a8;
+}
+
+footer div{ 
+  display: flex;
+  /* 去除list的默认样式 */
+  list-style: none;
+}
+
+footer div li{ 
+  margin: 0 10px;
+}
+
+footer div img{ 
+  width: 30px;
+  height: 30px;
 }
